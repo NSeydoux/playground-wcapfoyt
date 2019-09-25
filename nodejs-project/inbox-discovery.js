@@ -1,3 +1,4 @@
+const axios = require("axios")
 const {fetch_inbox} = require("./discover-inbox")
 
 // You can change that to your own webid
