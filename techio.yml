@@ -3,6 +3,7 @@ plan:
 - title: Welcome
   statement: markdowns/welcome.md
 - title: Managing notifications
+  statement: markdowns/notifications.md
 statement: markdowns/notifications.md
 projects:
   nodejs:
