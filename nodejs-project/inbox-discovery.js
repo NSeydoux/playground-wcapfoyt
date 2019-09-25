@@ -5,7 +5,7 @@ const {fetch_inbox} = require("./discover-inbox")
 const resource_iri = "https://cleopatra.solid.community/profile/card#me"
 
 // First, let's see the plain RDF representation of the resource
-axios.get(url)
+axios.get(resource_iri)
 .then(response => {
   // Let us just display the content of the resource
   console.log(response.data);
