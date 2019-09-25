@@ -9,5 +9,5 @@ projects:
   nodejs:
     root: /nodejs-project
     runner:
-      name: techio/node-npm-runner
+      name: nseydoux/techio-node:1.0.0-node12.10.0
       version: latest
