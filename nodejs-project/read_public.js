@@ -7,10 +7,10 @@ const resource = "/public/blog/religion/greek-egyptian-conandrum.txt"
 const url = host+resource;
 
 axios.get(url)
-  .then(response => {
-    // Let us just display the content of the resource
-    console.log(response.data);
-  })
-  .catch(error => {
-    console.log(error);
-  })
+.then(response => {
+  // Let us just display the content of the resource
+  console.log(response.data);
+})
+.catch(error => {
+  console.log(error);
+})
