@@ -11,4 +11,4 @@ inv: a as:Invite;
     as:object <https://jcaesar.solid.community/public/calendar/50BC/Martius/PartyAtCaesarPalace.ttl>.
 
 `
-exports invite;
+module.exports.invite = invite;
