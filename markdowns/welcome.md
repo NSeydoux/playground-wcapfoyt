@@ -8,4 +8,4 @@ Let's start out with the simplest possible interaction with a solid server: read
 
 A public resource can be accessed without authentication, so it's basically like any resource on the web: a GET on the IRI, and you're good to go.
 
-@[I wonder what Cleopatra shared in her blog.]({ "stubs": ["read_public.js"], "command": "node index.js" })
+@[I wonder what Cleopatra shared in her blog.]({ "stubs": ["read_public.js"], "command": "node read_public.js" })
