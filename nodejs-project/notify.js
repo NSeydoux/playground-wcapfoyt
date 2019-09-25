@@ -1,7 +1,7 @@
 const axios = require("axios")
 const $rdf = require("rdflib")
 
-const invite = require("./invite")
+const {invite} = require("./invite")
 
 const timeout = 3000
 
@@ -32,7 +32,7 @@ function send_invite(inbox) {
     axios({
         method: 'post',
         url: inbox,
-        data: invite.invite,
+        data: invite,
         headers: {
             "Content-type": "text/turtle"
         }
