@@ -37,7 +37,7 @@ function send_invite(inbox) {
             "Content-type": "text/turtle"
         }
       }).then (response => {
-        console.log(response)
+        console.log(response.status)
       }).catch(error => {
         console.log(error)
       });
