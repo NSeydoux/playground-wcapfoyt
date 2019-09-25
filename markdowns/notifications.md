@@ -6,4 +6,4 @@ In this exemple, you can get invited to Julius Caesar book release party. You ma
 
 In this first snippet, the target's inbox is discovered, and the invite is sent. Want to get in ? Just change the `calendar_iri` to your own!
 
-@[Let's get crazy sending out invites]({ "stubs": ["invite.js", "notify.js"], "command": "node notify.js" })
+@[Let's get crazy sending out invites]({ "stubs": ["notify.js", "invite.js"], "command": "node notify.js" })
